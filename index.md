@@ -1,11 +1,11 @@
 ## Objectives
 
-Human culture provides an ideal testbed for students exploring data science, because the interpretive challenges that lurk beneath the surface in other domains become starkly visible here. For instance, cultural materials start out as unstructured texts or images, forcing explicit decisions about data modeling and feature extraction. Humanistic questions also highlight the importance of interpreting statistical models in relation to a social context. Last but not least: songs, poems, and stories confront us with vivid problems that are inherently fun to explore.
+Human culture provides an ideal testbed for students exploring data science. It's a challenging space to work in, because most cultural materials start out as unstructured texts, sound files, or images--not neat spreadsheets. Humanistic questions also highlight the importance of interpreting statistical models in relation to a social context. Last but not least: songs, poems, and stories confront us with vivid problems that are inherently fun to explore.
 
-Our goals in the course are to
+Our main goals in the course are to
 
-- understand what data science can (and can't) add to reflection on human culture
-- gain hands-on experience using Python to model texts and images
+- understand what kinds of insights data science can (and can't) provide about human culture
+- get hands-on experience using Python to model texts and images
 - understand the mathematical principles underlying statistical machine learning, including a glimpse of deep learning
 
 ## Assignments 
