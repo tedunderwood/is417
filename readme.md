@@ -12,7 +12,7 @@ Most aspects of the course will run through [the Moodle page](learn.illinois.edu
 
 But I'll also be distributing Jupyter notebooks and supporting data files. In most cases, it will be easiest to distribute those through GitHub.
 
-So you might start by [installing git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git). Then open [a command line,](https://melaniewalsh.github.io/Intro-Cultural-Analytics/features/Command-Line/The-Command-Line.html) ```cd```` to a directory where you want to place ```is417/``` as a subfolder, and clone the repository by saying:
+So you might start by [installing git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git). Then open [a command line,](https://melaniewalsh.github.io/Intro-Cultural-Analytics/features/Command-Line/The-Command-Line.html), ```cd``` to a directory where you want to place ```is417/``` as a subfolder, and clone the repository by saying:
 
     git clone https://github.com/tedunderwood/is417.git
 
