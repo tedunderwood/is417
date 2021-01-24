@@ -20,7 +20,9 @@ I will drop the lowest homework grade, so if you miss one, that's not a disaster
 
 **Forum posts.** Five times during the semester, write a brief paragraph-length comment in the discussion forum. Usually these will be comments on the reading for a particular day; I'll use them to organize discussion. Toward the end of the class we'll be using the forum to discuss challenges you've encountered in your projects.
 
-**Final project.** Write an 8-12 page paper that uses some form of quantitative analysis to illuminate a question about human history or contemporary culture. Your results don't necessarily have to take the form of an experimental report (data-methods-results-conclusions). Some projects might more appropriately produce an annotated map, for instance, accompanied by a narrative. We're in a space between disciplines, so form is a place where you can be creative.
+**Final project.** Write an 8-12 page paper that uses some form of quantitative analysis to illuminate a question about human history or contemporary culture. Your results don't necessarily have to take the form of an experimental report (data-methods-results-conclusions). Some projects might more appropriately produce an annotated map, for instance, accompanied by a narrative. We're in a space between disciplines, so form is a place where you can be creative. 
+
+Please don't feel that your project has to demonstrate advanced methods. We're going to explore recent advanced topics here, but complex methods are not useful for all problems. Sometimes all you need is manual counting ("How many people does John Wick shoot?") plus a simple calculation ("compare to the median body count in other films").
 
 These can be individual projects or group work. If you decide to organize in a group, you can be a more ambitious in your data gathering and analysis, and perhaps produce a slightly longer (10-16 page) paper.
 
