@@ -8,6 +8,12 @@ Our main goals in the course are to
 - get hands-on experience using Python to model texts and images
 - understand the mathematical principles underlying statistical machine learning, including a glimpse of deep learning
 
+## Lab sessions
+
+We're officially scheduled to have a single two-hour meeting on Mondays, from 1 to 2:55. But there are a lot of us, and it can be hard to work interactively on programming in a group of 24 people. (Students might wait a long time for their questions to get answered.)
+
+So I suspect we will find it works better to abbreviate the main synchronous meeting (so that all 24 of us just meet together from 1 to roughly 1:50 pm), and then divide the rest of our time across several 50-minute "lab sections" where you can work on code in a smaller group of 6 - 10 people. One of those lab sections might be Monday from 2:00 to 2:50-—so if that time works best for your schedule, you can still do everything on Monday afternoons. But I'll create one or two other options across the week, and give you a choice. I'll post a sign-up sheet on Moodle on the first day of class.
+
 ## Assignments 
 
 There are three kinds of assignments in this class: homework (in Python), informal posts in the discussion forum, and a final project (individual or group) that uses data science to investigate a question about history or human culture.
