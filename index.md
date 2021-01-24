@@ -30,6 +30,8 @@ Papers should be supported by code and data showing how you reached your conclus
 
 Homework assignments are worth 60% of the grade, forum posts and synchronous participation are worth 10%, and your final project is worth 30%.
 
+![The Wisdom of the Ancients](https://imgs.xkcd.com/comics/wisdom_of_the_ancients.png)
+
 ### Getting help on assignments
 
 I like Miriam Posner's ["ground rules for learning tech,"](https://twitter.com/miriamkp/status/1349095892700205057) and aspire to imitate them here.
