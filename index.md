@@ -24,7 +24,7 @@ You might consider creating a subfolder within is417 named with your netID (e.g.
 
 I will drop the lowest homework grade, so if you miss one, that's not a disaster.
 
-**Forum posts.** Five times during the semester, write a brief paragraph-length comment in the discussion forum. Usually these will be comments on the reading for a particular day; I'll use them to organize discussion. Toward the end of the class we'll be using the forum to discuss challenges you've encountered in your projects.
+**Forum posts.** Five times during the semester, write a brief paragraph-length comment in the discussion forum. Usually these will be comments on the reading for a particular day; I'll use them to organize discussion. Toward the end of the class we'll be using the forum to discuss challenges you've encountered in your projects. Those posts also count toward your five.
 
 **Final project.** Write an 8-12 page paper that uses some form of quantitative analysis to illuminate a question about human history or contemporary culture. Your results don't necessarily have to take the form of an experimental report (data-methods-results-conclusions). Some projects might more appropriately produce an annotated map, for instance, accompanied by a narrative. We're in a space between disciplines, so form is a place where you can be creative. 
 
