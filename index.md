@@ -68,7 +68,7 @@ Don't worry deeply about the technical details here; I'm not planning to discuss
 
 **Lab session:**
 
-Walsh, ["The Command Line"](https://melaniewalsh.github.io/Intro-Cultural-Analytics/features/Command-Line/The-Command-Line.html) and ["How To Use Jupyer Notebooks"](https://melaniewalsh.github.io/Intro-Cultural-Analytics/features/Python/How-to-Use-Jupyter-Notebooks.html)
+Walsh, ["The Command Line"](https://melaniewalsh.github.io/Intro-Cultural-Analytics/features/Command-Line/The-Command-Line.html) and ["How To Use Jupyter Notebooks"](https://melaniewalsh.github.io/Intro-Cultural-Analytics/features/Python/How-to-Use-Jupyter-Notebooks.html) are useful preparation.
 
 Install git and clone the IS417 repository. This will give you
 [```Milne_ALostMasterpiece.txt```](https://americanliterature.com/author/aa-milne/essay/a-lost-masterpiece) in the ```texts/``` directory, and
