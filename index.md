@@ -12,9 +12,9 @@ Our main goals in the course are to
 
 There are three kinds of assignments in this class: homework (in Python), informal posts in the discussion forum, and a final project (individual or group) that uses data science to investigate a question about history or human culture.
 
-**Homework.** There will be ten homework assignments. Each one takes the form of a Jupyter notebook. In the early weeks of the class I will usually start the notebook and then ask you to finish it, while achieving particular analytic goals.
+**Homework.** There will be ten homework assignments. Each one takes the form of a Jupyter notebook. In the early weeks of the class I will usually start the notebook and then ask you to finish it in a way that addresses a short list of questions.
 
-You might consider creating a subfolder within is417 named with your netID (e.g. for me it would be ```tunder/```), and keeping your homework assignments (just the ```.ipynb``` files) in that folder. At a later stage of the semester, this will make it easier to share your homework with me using git so I can help you debug it. However, for now I don't recommend using git to submit homework. Instead, print your notebook as a .pdf file (you can do this under "File" in JupyterLab) and submit the .pdf on the Moodle, with the .ipynb file as an attachment.
+You might consider creating a subfolder within is417 named with your netID (e.g. for me it would be ```tunder/```), and keeping your homework assignments (just the ```.ipynb``` files) in that folder. At a later stage of the semester, this might make it easier to share your homework with me using git so I can help you debug it. However, for now I don't recommend using git to submit homework. Instead, print your notebook as a .pdf file (you can do this under "File" in JupyterLab) and submit the .pdf on the Moodle, with the .ipynb file as an attachment.
 
 I will drop the lowest homework grade, so if you miss one, that's not a disaster.
 
