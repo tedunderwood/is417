@@ -46,6 +46,8 @@ This syllabus is strongly influenced by (and sometimes borrows directly from) tw
 
 # Schedule
 
+Note that homework stops after March, and reading really slows down too, so you can focus on your projects.
+
 ### January 25: Introduction to Jupyter and Python
 
 **What are the humanities?**
@@ -120,7 +122,6 @@ We'll build a Naive Bayes classifier and model the sentiment of movie reviews.
 
 **Homework 3**
 
-
 ### February 15: High-Dimensional Space: Where the Humanities Happen
 
 Daniel Jurafsky and James H. Martin, "Vector Semantics & Embeddings": Sections 6-6.4
@@ -153,12 +154,14 @@ Vincent Spruyt, ["The Curse of Dimensionality in Classification."](https://www.v
 
 We'll measure the strength of gender stereotypes in movie dialogue.
 
-**Homework 4:**
+**Homework 5:**
 
 Do gender stereotypes change across time?
 
 
 ### March 1: Topic Modeling
+
+**Homework 6**
 
 ### March 8: Beyond Bags of Words: People, Places and Times
 
@@ -168,10 +171,13 @@ Matthew Wilkens, “Literary Attention Lag” (2015).
 
 Kim et al., ["What Time Is It? Temporal Analysis of Novels."](https://www.aclweb.org/anthology/2020.emnlp-main.730.pdf)
 
+**Homework 7**
+
 ### March 15: Word embeddings
 
 Daniel Jurafsky and James H. Martin, "Vector Semantics & Embeddings": Sections 6.8-6.12
 
+**Homework 8**
 
 ### March 22: Image Classification
 
@@ -181,6 +187,7 @@ Laure Thompson and David Mimno, ["Computational Cut-Ups: The Influence of Dada."
 
 Something like this TBA: [Training a CNN classifier using PyTorch.](https://pytorch.org/tutorials/beginner/blitz/cifar10_tutorial.html)
 
+**Homework 9**
 
 ### March 29: Transfer Learning and Contextual Embeddings
 
@@ -196,6 +203,7 @@ Optional: Peters et al., ["Deep Contextualized Word Representations."](https://a
 
 **Lab** We'll use the HuggingFace implementation of BERT to do simple sentiment classification.
 
+**Homework 10**
 
 ### April 5: Starting to Plan Your Project: Experimental Design
 
@@ -207,20 +215,19 @@ Heather Krause, ["Data Biographies: Getting to Know Your Data."](https://gijn.or
 
 Ted Underwood, ["How Not to Do Things with Words."](https://tedunderwood.com/2012/08/25/how-not-to-do-things-with-words/)
 
-*Lab session*: Practice web scraping.
+**Lab session:** Practice web scraping.
 
-No homework: you're starting to work on your project.
+**No homework beyond this point:** you're starting to work on your project.
 
 
-April 12: Data "Munging"
---------------------------
+### April 12: Data "Munging"
 
 Due: Project proposals. You can the forum to describe a specific problem you're facing in your project; we'll use the main course meeting to discuss these.
 
 *Lab session*: Use fuzzy matching to join two datasets.
 
 
-April 19: Challenges you're facing; data visualization; representing uncertainty
+### April 19: Challenges you're facing; data visualization; representing uncertainty
 -------------------------------------------------------------------------------
 
 Use the forum to describe a specific problem you're facing in your project; we'll use the main course meeting to discuss these.
@@ -228,52 +235,12 @@ Use the forum to describe a specific problem you're facing in your project; we'l
 *Lab sessions*: We'll use bootstrap methods to measure uncertainty and probably use GeoPy to create maps.
 
 
-April 26: Television studies / challenges you're confronting in your projects
+### April 26: Television studies / challenges you're confronting in your projects
 ------------------------------------------------------------------------------
 First 30 minutes: Taylor Arnold, Lauren Tilton, Annie Berke, ["Visual Style in Two Network Era Sitcoms"](https://culturalanalytics.org/article/11045-visual-style-in-two-network-era-sitcoms)
 
 The rest of the day, project presentations.
 
 
-May 3: Project presentations finish
+### May 3: Project presentations finish
 -------------------------------------
-
-
-
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/tedunderwood/is417/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/tedunderwood/is417/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
