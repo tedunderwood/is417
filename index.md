@@ -55,11 +55,13 @@ Note that homework stops after March, and reading really slows down too, so you 
 ### January 25: Introduction to Jupyter and Python
 
 **What are the humanities?**
+
 [Familiar answers, from 4Humanities.](https://4humanities.org/2014/12/what-are-the-humanities/)
 
 [Puzzling evidence from the Google ngram viewer.](https://rb.gy/1rbtj2)
 
 **What happens when the humanities meet data science?**
+
 Mohr, Wagner-Pacifici, and Breiger, ["Toward a Computational Hermeneutics."](https://journals.sagepub.com/doi/full/10.1177/2053951715613809)
 
 We'll discuss this article in some depth.
