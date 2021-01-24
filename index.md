@@ -230,7 +230,6 @@ Due: Project proposals. You can the forum to describe a specific problem you're 
 
 
 ### April 19: Challenges you're facing; data visualization; representing uncertainty
--------------------------------------------------------------------------------
 
 Use the forum to describe a specific problem you're facing in your project; we'll use the main course meeting to discuss these.
 
@@ -238,11 +237,9 @@ Use the forum to describe a specific problem you're facing in your project; we'l
 
 
 ### April 26: Television studies / challenges you're confronting in your projects
-------------------------------------------------------------------------------
 First 30 minutes: Taylor Arnold, Lauren Tilton, Annie Berke, ["Visual Style in Two Network Era Sitcoms"](https://culturalanalytics.org/article/11045-visual-style-in-two-network-era-sitcoms)
 
 The rest of the day, project presentations.
 
 
 ### May 3: Project presentations finish
--------------------------------------
