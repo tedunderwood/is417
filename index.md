@@ -22,10 +22,29 @@ I will drop the lowest homework grade, so if you miss one, that's not a disaster
 
 **Final project.** Write an 8-12 page paper that uses some form of quantitative analysis to illuminate a question about human history or contemporary culture. Your results don't necessarily have to take the form of an experimental report (data-methods-results-conclusions). Some projects might more appropriately produce an annotated map, for instance, accompanied by a narrative. We're in a space between disciplines, so form is a place where you can be creative.
 
-These can be individual projects or group work. If you decide to organize in a group, you can be a more ambitious in your data gathering and analysis, and perhaps produce a slightly longer (12-16 page) paper.
+These can be individual projects or group work. If you decide to organize in a group, you can be a more ambitious in your data gathering and analysis, and perhaps produce a slightly longer (10-16 page) paper.
 
-Papers should be supported by code and data showing how you reached your conclusion.
+Papers should be supported by code and data showing how you reached your conclusion. If you would like to make your project visible to an audience beyond the class, one way to organize your expository report, code, and data is to create a GitHub repository, like the one you're reading now.
 
+Homework assignments are worth 60% of the grade, forum posts and synchronous participation are worth 10%, and your final project is worth 30%.
+
+### Getting help on assignments
+
+I like Miriam Posner's ["ground rules for learning tech,"](https://twitter.com/miriamkp/status/1349095892700205057) and aspire to imitate them here.
+
+In particular, I want to stress that I don't see the homework assignments as "tests." My goal is for everyone to succeed on all the assignments. 
+
+Always start by trying to solve the problem yourself. A big part of learning to code is learning to make (and catch) mistakes, and that involves a certain amount of staring at the screen, googling whatever error message you're getting, [cursing DenverCoder9](https://xkcd.com/979/), groaning, etc. But if you've done that for an hour straight and seem to be hitting the same wall over and over, it's time to get help. Often it's something very simple! You can email me, or another student in class, and ask for a tip. Let me underline that again, because these ground rules are different from some classes: *I'm saying it's fine to email another student and ask for a clue*. The final notebook should be your own work, but it's okay to ask for help. (Don't post solutions openly on the class forum, though, because it's really important for people to google the error message and curse DenverCoder9 first. Someday you'll hit a problem where no one knows the answer yet, and then it's going to matter that you've had a lot of practice groaning, enduring, trying different debugging strategies, etc.) 
+
+Do acknowledge help in the notebook. "I copied parts of the sort_lyrics() function from DenverCoder9 at Stack Overflow, and also got advice from my roommate Carol." This will not detract from your grade; it's normal to borrow bits of code.
+
+If you email me for help, I will try to respond within 48 hours, but I need to warn you in advance that a 48- to 72-hour delay is typical.
+
+### Where I got help
+
+This syllabus is strongly influenced by (and sometimes borrows directly from) two recent courses: Melanie Walsh, ["Introduction to Cultural Analytics and Python,"](https://melaniewalsh.github.io/Intro-Cultural-Analytics/features/Data-Analysis/Pandas-Basics-Part1.html), as well as Dan Sinykin, ["Practical Approaches to Data Science with Text."](https://github.com/sinykin/QTM-340/blob/master/docs/schedule.md). 
+
+# Schedule
 
 ### January 25: Introduction to Jupyter and Python
 
@@ -58,12 +77,13 @@ See if you can run ```simple_word_counting.ipynb.```
 **Homework 1:** Write code blocks that
 a) check whether a word contains any repeated letters,
 b) test whether two words are anagrams,
-c) (optional, extra) find all common English words that are anagrams for a given string.
+c) (optional, not required, just for fun) find all common English words that are anagrams for a given string.
 
 If you don't have previous experience with Python, you may want to work through [sections 2-7 of "The Python Tutorial"](https://docs.python.org/3/tutorial/) before attempting the homework. Other introductory books and online tutorials could work equally well; Melanie Walsh has good chapters on Lists, Loops, String Methods, and Dictionaries that can be downloaded as notebooks.
 
-February 1: Descriptive and Inferential Statistics with Pandas
---------------------------------------------------------------
+### Warning: everything after this is tentative and will definitely get revised!
+
+### February 1: Descriptive and Inferential Statistics with Pandas
 
 Anelise Hanson Shrout, ["(Re)Humanizing Data: Digitally Navigating the Bellevue Almshouse."](https://crdh.rrchnm.org/essays/v01-10-(re)-humanizing-data/)
 Melanie Walsh, ["Pandas Basics."](https://melaniewalsh.github.io/Intro-Cultural-Analytics/features/Data-Analysis/Pandas-Basics-Part1.html)
@@ -87,15 +107,21 @@ Questions about movie dialogue, by period, genre, and character gender.
 If you need more background on descriptive and inferential statistics, I recommend the free [*OpenIntro Statistics.*](https://leanpub.com/openintro-statistics)
 
 
-February 8: Probability and statistical learning
-------------------------------------------------
+### February 8: Probability and statistical learning
 Daniel Jurafsky and James H. Martin, [Section 3.1, "Ngrams"](https://web.stanford.edu/~jurafsky/slp3/3.pdf)
 
-Daniel Jurafsky and James H. Martin,
+For intuition, Stephanie Yee and Tony Chu, [“A Visual Introduction to Machine Learning.”](http://www.r2d3.us/visual-intro-to-machine-learning-part-1/) You may also enjoy ["Part 2: Model Tuning and the Bias-Variance Tradeoff."](http://www.r2d3.us/visual-intro-to-machine-learning-part-2/)
+
+Daniel Jurafsky and James H. Martin, [all of Chapter 4, "Naive Bayes and Sentiment Classification."](https://web.stanford.edu/~jurafsky/slp3/4.pdf)
+
+**Lab session:**
+
+We'll build a Naive Bayes classifier and model the sentiment of movie reviews.
+
+**Homework 3**
 
 
-February 15: High-Dimensional Space: Where the Humanities Happen
----------------------------------------------------------------
+### February 15: High-Dimensional Space: Where the Humanities Happen
 
 Daniel Jurafsky and James H. Martin, "Vector Semantics & Embeddings": Sections 6-6.4
 
@@ -111,14 +137,11 @@ Optional: Matt Daniels, ["The Language of Hip Hop."](https://pudding.cool/2017/0
 
 We'll perform principal component analysis on movies, and measure the similarity of words in "dialogue space."
 
-**Homework 3:**
+**Homework 4:**
 
 Principal component analysis on movie genres.
 
-February 22: How to Learn in High-Dimensional Space: Logistic Regression
-------------------------------------------------------------------------
-
-For intuition, Stephanie Yee and Tony Chu, [“A Visual Introduction to Machine Learning.”](http://www.r2d3.us/visual-intro-to-machine-learning-part-1/) You may also enjoy ["Part 2: Model Tuning and the Bias-Variance Tradeoff."](http://www.r2d3.us/visual-intro-to-machine-learning-part-2/)
+### February 22: How to Learn in High-Dimensional Space: Logistic Regression
 
 James, Witten, Hastie, and Tibshirani, "2. Statistical Learning," "4. Classification," and "5.1 Cross-Validation" from *An Introduction to Statistical Learning.*
 
@@ -135,11 +158,9 @@ We'll measure the strength of gender stereotypes in movie dialogue.
 Do gender stereotypes change across time?
 
 
-March 1: Topic Modeling
----------------------------
+### March 1: Topic Modeling
 
-March 8: Beyond Bags of Words: People, Places and Times
------------------------------------------------------------
+### March 8: Beyond Bags of Words: People, Places and Times
 
 Daniel Jurafsky and James H. Martin, ["Sequence Labeling", sections 8.1-8.3](https://web.stanford.edu/~jurafsky/slp3/8.pdf)
 
@@ -147,15 +168,12 @@ Matthew Wilkens, “Literary Attention Lag” (2015).
 
 Kim et al., ["What Time Is It? Temporal Analysis of Novels."](https://www.aclweb.org/anthology/2020.emnlp-main.730.pdf)
 
-
-March 15: Word embeddings
---------------------------
+### March 15: Word embeddings
 
 Daniel Jurafsky and James H. Martin, "Vector Semantics & Embeddings": Sections 6.8-6.12
 
 
-March 22: Image Classification
-------------------------------
+### March 22: Image Classification
 
 Daniel Jurafsky and James H. Martin, ["Neural Networks", sections 7.1-7.4](https://web.stanford.edu/~jurafsky/slp3/7.pdf)
 
@@ -164,17 +182,22 @@ Laure Thompson and David Mimno, ["Computational Cut-Ups: The Influence of Dada."
 Something like this TBA: [Training a CNN classifier using PyTorch.](https://pytorch.org/tutorials/beginner/blitz/cifar10_tutorial.html)
 
 
-March 29: Transfer Learning and Contextual Embeddings
------------------------------------------------------
+### March 29: Transfer Learning and Contextual Embeddings
+
+Read Farhad Manjoo's ["How Do You Know a Human Wrote This?"](https://www.nytimes.com/2020/07/29/opinion/gpt-3-ai-automation.html) Remind me to extract this from the paywall for you.
+
+Spend at least 30 minutes playing [AI Dungeon.](https://play.aidungeon.io/main/landing)
+
+Write a forum post about your experience playing AI Dungeon by going [here](https://transformer.huggingface.co/doc/gpt2-large) and typing the first 50 words. Then hit tab.
 
 Noah A. Smith, ["Contextual Word Representations: Putting Words into Computers"](https://dl.acm.org/doi/pdf/10.1145/3347145)
+
 Optional: Peters et al., ["Deep Contextualized Word Representations."](https://arxiv.org/pdf/1802.05365.pdf)
 
-We'll use the HuggingFace implementation of BERT to do simple sentiment classification.
+**Lab** We'll use the HuggingFace implementation of BERT to do simple sentiment classification.
 
 
-April 5: Starting to Plan Your Project: Experimental Design
-------------------------------------------------------------
+### April 5: Starting to Plan Your Project: Experimental Design
 
 When quantitative methods fail in the humanities, how and why do they typically fail?
 
