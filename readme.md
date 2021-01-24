@@ -1,7 +1,7 @@
 IS417 Data Science in the Humanities
 ====================================
 
-Human culture provides an ideal testbed for students exploring data science, because the interpretive challenges that lurk beneath the surface in other domains become starkly visible here. For instance, cultural materials start out as unstructured texts, images, or sound files, forcing explicit decisions about data modeling and feature extraction. Cultural questions also highlight the importance of interpreting statistical models in relation to a social context. Last but not least: songs, poems, and stories confront us with vivid problems that are inherently fun to explore.
+Human culture provides an ideal testbed for students exploring data science, because the interpretive challenges that lurk beneath the surface in other domains become starkly visible here. For instance, cultural materials start out as unstructured texts, images, or sound files, forcing explicit decisions about data modeling and feature extraction. Humanistic questions also highlight the importance of interpreting statistical models in relation to a social context. Last but not least: songs, poems, and stories confront us with vivid problems that are inherently fun to explore.
 
 A semester of previous exposure to some programming language is a prerequisite for this course; the programming language you've used doesn't need to be Python, but you should be comfortable with concepts like "variable assignment" and "loops."
 
@@ -12,10 +12,17 @@ Most aspects of the course will run through [the Moodle page](learn.illinois.edu
 
 But I'll also be distributing Jupyter notebooks and supporting data files. In most cases, it will be easiest to distribute those through GitHub.
 
-So you might start by [installing git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) and cloning this repository:
+So you might start by [installing git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git). Then open [a command line,]((https://melaniewalsh.github.io/Intro-Cultural-Analytics/features/Command-Line/The-Command-Line.html)) ```cd```` to a directory where you want to place ```is417/``` as a subfolder, and clone the repository by saying:
 
-    git clone is417.git
+    git clone https://github.com/tedunderwood/is417.git
 
+Later, when new materials have been added to this folder, you can get the materials by navigating to the ```is417``` folder and saying:
+
+    git pull origin main
+
+The files will automatically be placed in appropriate folders, which makes this a lot easier than downloading things from Moodle.
+
+You might also consider creating a subfolder within is417 named with your netID (e.g. for me it would be ```tunder/```), and keeping your homework assignments (just the ```.ipynb``` files) in that folder. At a later stage of the semester, this might make it easier to share your homework with me so I can help you debug.
 
 January 25: Introduction to Jupyter and Python
 ----------------------------------------------
@@ -164,7 +171,7 @@ We'll use the HuggingFace implementation of BERT to do simple sentiment classifi
 April 5: Starting to Plan Your Project: Experimental Design
 ------------------------------------------------------------
 
-When quantitative methods fail in the humanities, how and why do they typically fail? 
+When quantitative methods fail in the humanities, how and why do they typically fail?
 
 Nguyen et al., ["How We Do Things With Words: Analyzing Text as Social and Cultural Data."](https://www.frontiersin.org/articles/10.3389/frai.2020.00062/full)
 
