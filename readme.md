@@ -3,8 +3,6 @@ IS417 Data Science in the Humanities
 
 Human culture provides an ideal testbed for students exploring data science--because poems, stories, and songs highlight the challenges of high-dimensional unstructured data, and because they're inherently fun to explore.
 
-A semester of previous exposure to some programming language is a prerequisite for this course; the programming language you've used doesn't need to be Python, but you should be comfortable with concepts like "variable assignment" and "loops."
-
 How to use this repository
 --------------------------
 
