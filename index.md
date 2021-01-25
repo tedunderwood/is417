@@ -8,6 +8,8 @@ Our main goals in the course are to
 - get hands-on experience using Python to model texts and images
 - understand the mathematical principles underlying statistical machine learning, including a glimpse of deep learning
 
+A semester of previous exposure to some programming language is a prerequisite for this course; the programming language you've used doesn't need to be Python, but you should be fairly comfortable with concepts like "variable assignment" and "for loops."
+
 ## Lab sessions
 
 We're officially scheduled to have a single two-hour meeting on Mondays, from 1 to 2:55. But there are a lot of us, and it can be hard to work interactively on programming in a group of 24 people. (Students might wait a long time for their questions to get answered.)
