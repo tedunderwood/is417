@@ -100,7 +100,7 @@ If you don't have previous experience with Python, you may want to work through 
 Anelise Hanson Shrout, ["(Re)Humanizing Data: Digitally Navigating the Bellevue Almshouse."](https://crdh.rrchnm.org/essays/v01-10-(re)-humanizing-data/)
 Melanie Walsh, ["Pandas Basics."](https://melaniewalsh.github.io/Intro-Cultural-Analytics/features/Data-Analysis/Pandas-Basics-Part1.html)
 
-Before class, work through the notebook ```MoviesAndStatistics.ipynb.```
+Before class, work through the notebook [```MoviesAndStatistics.ipynb.```](https://github.com/tedunderwood/is417/tree/main/labs/Feb1Pandas)
 
 David Robinson, ["Text Analysis of Trump's Tweets Confirms He Writes Only the (Angrier) Android Half."](http://varianceexplained.org/r/trump-tweets/)
 
