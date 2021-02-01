@@ -106,15 +106,15 @@ David Robinson, ["Text Analysis of Trump's Tweets Confirms He Writes Only the (A
 
 Benjamin Schmidt, ["Comparing Corpuses by Word Use."](http://sappingattention.blogspot.com/2011/10/comparing-corpuses-by-word-use.html)
 
-optional background: Ted Dunning, ["Accurate Methods for the Statistics of Surprise and Coincidence."](https://www.aclweb.org/anthology/J93-1003.pdf)
+very optional background: Ted Dunning, ["Accurate Methods for the Statistics of Surprise and Coincidence."](https://www.aclweb.org/anthology/J93-1003.pdf)
 
 **Lab session:**
 
-Can we improve on Robinson's analysis, and find words that are significantly over-represented in the Android tweets?
+Statistical inference on a dataset of movies and characters.
 
 **Homework 2:**
 
-Questions about movie dialogue, by period, genre, and character gender.
+Using Pandas to join dataframes, in order to pose questions about dialogue and character age.
 
 If you need more background on descriptive and inferential statistics, I recommend the free [*OpenIntro Statistics.*](https://leanpub.com/openintro-statistics)
 
