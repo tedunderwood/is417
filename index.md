@@ -95,8 +95,6 @@ c) (optional, not required, just for fun) find all common English words that are
 
 If you don't have previous experience with Python, you may want to work through [sections 2-7 of "The Python Tutorial"](https://docs.python.org/3/tutorial/) before attempting the homework. Other introductory books and online tutorials could work equally well; Melanie Walsh has good chapters on Lists, Loops, String Methods, and Dictionaries that can be downloaded as notebooks.
 
-### Warning: everything after this is tentative and will definitely get revised!
-
 ### February 1: Descriptive and Inferential Statistics with Pandas
 
 Anelise Hanson Shrout, ["(Re)Humanizing Data: Digitally Navigating the Bellevue Almshouse."](https://crdh.rrchnm.org/essays/v01-10-(re)-humanizing-data/)
@@ -133,6 +131,8 @@ Daniel Jurafsky and James H. Martin, [all of Chapter 4, "Naive Bayes and Sentime
 We'll build a Naive Bayes classifier and model the sentiment of movie reviews.
 
 **Homework 3**
+
+### Warning: everything after this is tentative and will definitely get revised!
 
 ### February 15: High-Dimensional Space: Where the Humanities Happen
 
