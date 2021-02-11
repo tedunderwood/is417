@@ -130,11 +130,27 @@ Daniel Jurafsky and James H. Martin, [all of Chapter 4, "Naive Bayes and Sentime
 
 We'll build a Naive Bayes classifier and model the sentiment of movie reviews.
 
-**Homework 3**
+**No homework this week.**
+
+### February 15: How and why we build predictive models
+
+Obviously predictive models have some usefulness in daily life: they filter spam out of your inbox and help decide which movies Netflix and Amazon are going to recommend to you. (Remember the 20c Fox article we glanced at on the first day.) But why would historians and literary scholars care about making predictions? The past already happened; it's too late to predict it. Right?
+
+**Optional:** If you still feel a bit dizzy in Pandas, try reviewing [all of Melanie Walsh's notebooks on Pandas,](: https://melaniewalsh.github.io/Intro-Cultural-Analytics/Data-Analysis/Data-Analysis.html) reproducing the gist of what she does in Jupyter notebooks on your own machine.
+
+Then glance at these three readings to get a sense of why humanists are starting to explore predictive models. (Files on [the Moodle page.](learn.illinois.edu))
+
+Just the first page of Breiman, "The Two Cultures." (This will give you another way to think about the transition from traditional statistical modeling to machine learning.)
+
+Peterson and Spirling, "Classification Accuracy as a Substantive Quantity of Interest." 
+ 
+Underwood, Bamman, and Lee, "Transformation of Gender" (excerpts).
+
+**Lab, which will transition into homework:** modeling gender stereotypes in film dialogue.
 
 ### Warning: everything after this is tentative and will definitely get revised!
 
-### February 15: High-Dimensional Space: Where the Humanities Happen
+### High-Dimensional Space: Where the Humanities Happen
 
 Daniel Jurafsky and James H. Martin, "Vector Semantics & Embeddings": Sections 6-6.4
 
