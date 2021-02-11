@@ -146,7 +146,7 @@ Peterson and Spirling, "Classification Accuracy as a Substantive Quantity of Int
  
 Underwood, Bamman, and Lee, "Transformation of Gender" (excerpts).
 
-**Lab, which will transition into homework:** modeling gender stereotypes in film dialogue.
+**Lab, which will transition into homework 3:** modeling gender stereotypes in film dialogue.
 
 ### Warning: everything after this is tentative and will definitely get revised!
 
