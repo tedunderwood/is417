@@ -148,19 +148,18 @@ Underwood, Bamman, and Lee, "Transformation of Gender" (excerpts).
 
 **Lab, which will transition into homework 3:** modeling gender stereotypes in film dialogue.
 
-### Warning: everything after this is tentative and will definitely get revised!
-
-### High-Dimensional Space: Where the Humanities Happen
+### February 22: High-Dimensional Space: Where the Humanities Happen
 
 Daniel Jurafsky and James H. Martin, "Vector Semantics & Embeddings": Sections 6-6.4
 
 Victor Powell, [“Principal component analysis explained visually.”](https://setosa.io/ev/principal-component-analysis/)
 
-Alison et al., “Quantitative Formalism.”
+Alison et al., [“Quantitative Formalism.”](https://litlab.stanford.edu/LiteraryLabPamphlet1.pdf)
 
-Before class, work through the notebook ```MovieSimilarity.ipynb```
+Before class, work through the notebook ```MovieSimilarity.ipynb``` (will be on GitHub by this Thursday, Feb 18).
 
 Optional: Matt Daniels, ["The Language of Hip Hop."](https://pudding.cool/2017/09/hip-hop-words/)
+Vincent Spruyt, ["The Curse of Dimensionality in Classification."](https://www.visiondummy.com/2014/04/curse-dimensionality-affect-classification/)
 
 **Lab session**:
 
@@ -170,24 +169,7 @@ We'll perform principal component analysis on movies, and measure the similarity
 
 Principal component analysis on movie genres.
 
-### February 22: How to Learn in High-Dimensional Space: Logistic Regression
-
-James, Witten, Hastie, and Tibshirani, "2. Statistical Learning," "4. Classification," and "5.1 Cross-Validation" from *An Introduction to Statistical Learning.*
-
-As you read these chapters, work through the paired notebook ```HumanitiesML.ipynb," which will show you how to apply the principles explained in James et al. using Python rather than the R they use.
-
-Vincent Spruyt, ["The Curse of Dimensionality in Classification."](https://www.visiondummy.com/2014/04/curse-dimensionality-affect-classification/)
-
-**Lab session**
-
-We'll measure the strength of gender stereotypes in movie dialogue.
-
-**Homework 5:**
-
-Do gender stereotypes change across time?
-
-
-### March 1: Topic Modeling
+### March 1: Logistic Regression and Topic Modeling
 
 **Homework 6**
 
