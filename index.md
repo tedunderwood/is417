@@ -156,7 +156,7 @@ Victor Powell, [“Principal component analysis explained visually.”](https://
 
 Alison et al., [“Quantitative Formalism.”](https://litlab.stanford.edu/LiteraryLabPamphlet1.pdf)
 
-Before class, work through the notebook ```MovieSimilarity.ipynb``` (will be on GitHub by this Thursday, Feb 18).
+Before class, work through the notebook ```MovieSimilarity.ipynb```
 
 Optional: Matt Daniels, ["The Language of Hip Hop."](https://pudding.cool/2017/09/hip-hop-words/)
 Vincent Spruyt, ["The Curse of Dimensionality in Classification."](https://www.visiondummy.com/2014/04/curse-dimensionality-affect-classification/)
