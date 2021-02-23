@@ -163,15 +163,41 @@ Vincent Spruyt, ["The Curse of Dimensionality in Classification."](https://www.v
 
 **Lab session**:
 
-We'll perform principal component analysis on movies, and measure the similarity of words in "dialogue space."
+We'll perform principal component analysis on movies, and measure the similarity of words in "movie space."
 
 **Homework 4:**
 
-Principal component analysis on movie genres.
+Principal component analysis on movies.
 
 ### March 1: Logistic Regression and Topic Modeling
 
-**Homework 6**
+Ted Underwood, [“Topic Modeling Made Just Simple Enough” (2012).](https://tedunderwood.com/2012/04/07/topic-modeling-made-just-simple-enough/)
+
+Andrew Mazzaschi, ed, [Signs@40: Feminist Scholarship through Four Decades.](http://signsat40.signsjournal.org/)
+
+Topic modeling is best explored in a hands-on way. Before class, I suggest that everyone
+
+     a) select a dataset (either Mimno's built-in one, or our recent dataset of scripts-by-character, or one of several others I will post here—see below)
+
+     b) explore your dataset using David Mimno's in-browser topic modeling tool (try different settings—for instance, you can use the "Vocabulary" button to add stopwords)
+
+     c) find a particular pattern (for instance a particular topic) that seems interesting
+
+     d) download the Document-topic matrix using the service provided (the "Downloads" button), and
+
+     e) Just think about what you would need to do if you wanted to visualize the topic you've chosen as a full-size trend line that's a little more readable than the compressed version provided in the browser tool itself.
+
+Possible datasets:
+
+[post1970tracks.tsv](https://www.dropbox.com/s/hcctvu474htomb7/post1970tracks.tsv?dl=0) is a 12MB dataset of song lyrics covering the period from 1970 to 2010
+
+Excerpts from novels, 1880-1990: [fiction2.tsv](https://www.dropbox.com/s/tc6df6pvi4y2582/fiction2.tsv?dl=0).  It's about 45MB. You may find it produces a more interpretable model if you use [fictionstopwords.txt](https://www.dropbox.com/s/f5ptgcr4vkmve75/fictionstopwords.txt?dl=0).
+
+To use our movie database you would need to do a little data munging to get it into the right format.
+
+**Homework 5**
+
+Visualize and interpret the results of topic modeling.
 
 ### March 8: Beyond Bags of Words: People, Places and Times
 
