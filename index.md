@@ -177,15 +177,15 @@ Andrew Mazzaschi, ed, [Signs@40: Feminist Scholarship through Four Decades.](htt
 
 Topic modeling is best explored in a hands-on way. Before class, I suggest that everyone
 
-     a) select a dataset (either Mimno's built-in one, or our recent dataset of scripts-by-character, or one of several others I will post here—see below)
+a) select a dataset (either Mimno's built-in one, or our recent dataset of scripts-by-character, or one of several others I will post here—see below)
 
-     b) explore your dataset using David Mimno's in-browser topic modeling tool (try different settings—for instance, you can use the "Vocabulary" button to add stopwords)
+b) explore your dataset using [David Mimno's in-browser topic modeling tool](https://mimno.infosci.cornell.edu/jsLDA/) (try different settings—for instance, you can use the "Vocabulary" button to add stopwords)
 
-     c) find a particular pattern (for instance a particular topic) that seems interesting
+c) find a particular pattern (for instance a particular topic) that seems interesting
 
-     d) download the Document-topic matrix using the service provided (the "Downloads" button), and
+d) download the Document-topic matrix using the service provided (the "Downloads" button), and
 
-     e) Just think about what you would need to do if you wanted to visualize the topic you've chosen as a full-size trend line that's a little more readable than the compressed version provided in the browser tool itself.
+e) Just think about what you would need to do if you wanted to visualize the topic you've chosen as a full-size trend line that's a little more readable than the compressed version provided in the browser tool itself.
 
 Possible datasets:
 
