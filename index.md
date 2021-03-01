@@ -217,7 +217,7 @@ Matthew Wilkens, “Literary Attention Lag” (2015).
 
 Kim et al., ["What Time Is It? Temporal Analysis of Novels."](https://www.aclweb.org/anthology/2020.emnlp-main.730.pdf)
 
-**Homework 7**
+**Homework 6**
 
 ### March 15: Word embeddings
 
