@@ -169,7 +169,7 @@ We'll perform principal component analysis on movies, and measure the similarity
 
 Principal component analysis on movies.
 
-### March 1: Logistic Regression and Topic Modeling
+### March 1: Topic Modeling
 
 Ted Underwood, [“Topic Modeling Made Just Simple Enough” (2012).](https://tedunderwood.com/2012/04/07/topic-modeling-made-just-simple-enough/)
 
@@ -195,9 +195,19 @@ Excerpts from novels, 1880-1990: [fiction2.tsv](https://www.dropbox.com/s/tc6df6
 
 To use our movie database you would need to do a little data munging to get it into the right format.
 
-**Homework 5**
+**Homework 5, due Sunday March 7 at noon,** is exactly the same as our lab assignment today:
 
-Visualize and interpret the results of topic modeling.
+That is, take [the movie-dialogue dataset we've been using,](https://www.dropbox.com/s/5t8t166or1zo8fy/character_dataset_4lda.tsv?dl=0) topic model it using Mimno's jsLDA (linked above), and choose a topic you'd like to understand better. Download the keys and the doc-topics matrix from your model, and use that data to illuminate your chosen topic by sharing:
+
+a) The most prominent words in the topic, as reported by keys.csv.
+
+b) A list of ten movies whose characters (on average) have the highest proportion of words allocated to that topic. Note that you can treat each character in a movie as making an equal contribution to the mean prominence of the topic in the movie, even though we know some say more than others.
+
+c) A lineplot or scatterplot displaying the mean prominence of your chosen topic in characters from a given release-year.
+
+d) Write a short paragraph at the end describing what—if anything—you think we learn about movie dialogue from the distribution of this topic across the dataset.
+
+Alternatively, if you're already comfortable with gensim and want to do all of the above inside Python using gensim, you can do the assignment that way instead of using jsLDA.
 
 ### March 8: Beyond Bags of Words: People, Places and Times
 
