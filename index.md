@@ -217,9 +217,9 @@ Matthew Wilkens, [“Literary Attention Lag”](https://mattwilkens.com/2015/01/
 
 Kim et al., ["What Time Is It? Temporal Analysis of Novels."](https://www.aclweb.org/anthology/2020.emnlp-main.730.pdf)
 
-Notebook: "MappingMoney.ipynb" (available Friday morning with a collection of fictional texts; try to download the data we're using and work through section 1 before next class.)
+Notebook: "PassagesOfTime.ipynb" (available Friday morning with a collection of fictional texts; try to download the data we're using and work through section 1 before next class.)
 
-**Homework 6** will be an extension of our work in the Mapping Places lab.
+**Homework 6** will be an extension of our work in PassagesOfTime.
 
 ### March 15: Word embeddings and Logistic Regression
 
