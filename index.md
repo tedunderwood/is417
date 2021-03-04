@@ -211,19 +211,21 @@ Alternatively, if you're already comfortable with gensim and want to do all of t
 
 ### March 8: Beyond Bags of Words: People, Places and Times
 
-Daniel Jurafsky and James H. Martin, ["Sequence Labeling", sections 8.1-8.3](https://web.stanford.edu/~jurafsky/slp3/8.pdf)
+Daniel Jurafsky and James H. Martin, ["Sequence Labeling", sections 8.1-8.3](https://web.stanford.edu/~jurafsky/slp3/8.pdf) (If you're curious about how sequence labeling actually works, you can glance at section 8.4, but it's not required.)
 
-Matthew Wilkens, “Literary Attention Lag” (2015).
+Matthew Wilkens, [“Literary Attention Lag”](https://mattwilkens.com/2015/01/13/literary-attention-lag/) (2015).
 
 Kim et al., ["What Time Is It? Temporal Analysis of Novels."](https://www.aclweb.org/anthology/2020.emnlp-main.730.pdf)
 
-**Homework 6**
+Notebook: "MappingMoney.ipynb" (available Friday morning with a collection of fictional texts; try to download the data we're using and work through section 1 before next class.)
 
-### March 15: Word embeddings
+**Homework 6** will be an extension of our work in the Mapping Places lab.
+
+### March 15: Word embeddings and Logistic Regression
 
 Daniel Jurafsky and James H. Martin, "Vector Semantics & Embeddings": Sections 6.8-6.12
 
-**Homework 8**
+**Homework 7**
 
 ### March 22: Image Classification
 
