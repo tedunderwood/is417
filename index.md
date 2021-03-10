@@ -223,7 +223,11 @@ Notebook: "PassagesOfTime.ipynb" (available Friday morning with a collection of 
 
 ### March 15: Word embeddings and Logistic Regression
 
-Daniel Jurafsky and James H. Martin, "Vector Semantics & Embeddings": Sections 6.8-6.12
+Daniel Jurafsky and James H. Martin, ["Logistic Regression," sections 5.1 and 5.2](https://web.stanford.edu/~jurafsky/slp3/5.pdf); you can keep reading beyond that if you want to know how LR works mathematically--but it's not required for our course.
+
+Daniel Jurafsky and James H. Martin, ["Vector Semantics & Embeddings," sections 6.8-6.12](https://web.stanford.edu/~jurafsky/slp3/6.pdf)
+
+Ben Schmidt, ["Vector Space Models for Digital Humanities"](http://bookworm.benschmidt.org/posts/2015-10-25-Word-Embeddings.html) (2015).
 
 **Homework 7**
 
@@ -235,7 +239,7 @@ Laure Thompson and David Mimno, ["Computational Cut-Ups: The Influence of Dada."
 
 Something like this TBA: [Training a CNN classifier using PyTorch.](https://pytorch.org/tutorials/beginner/blitz/cifar10_tutorial.html)
 
-**Homework 9**
+**Homework 8**
 
 ### March 29: Transfer Learning and Contextual Embeddings
 
