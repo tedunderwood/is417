@@ -229,6 +229,8 @@ Daniel Jurafsky and James H. Martin, ["Vector Semantics & Embeddings," sections 
 
 Ben Schmidt, ["Vector Space Models for Digital Humanities"](http://bookworm.benschmidt.org/posts/2015-10-25-Word-Embeddings.html) (2015).
 
+![Uses of word embediings](WordEmbeddings.png)
+
 **Homework 7**
 
 ### March 22: Image Classification
