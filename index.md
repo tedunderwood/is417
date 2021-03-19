@@ -229,19 +229,37 @@ Daniel Jurafsky and James H. Martin, ["Vector Semantics & Embeddings," sections 
 
 Ben Schmidt, ["Vector Space Models for Digital Humanities"](http://bookworm.benschmidt.org/posts/2015-10-25-Word-Embeddings.html) (2015).
 
-![Uses of word embediings](WordEmbeddings.png)
-
-**Homework 7**
+![Uses of word embeddings](WordEmbeddings.png)
 
 ### March 22: Image Classification
 
-Daniel Jurafsky and James H. Martin, ["Neural Networks", sections 7.1-7.4](https://web.stanford.edu/~jurafsky/slp3/7.pdf)
+Daniel Jurafsky and James H. Martin,
 
-Laure Thompson and David Mimno, ["Computational Cut-Ups: The Influence of Dada."](https://mimno.infosci.cornell.edu/papers/JMPS_final.pdf)
+Laure Thompson and David Mimno, 
 
-Something like this TBA: [Training a CNN classifier using PyTorch.](https://pytorch.org/tutorials/beginner/blitz/cifar10_tutorial.html)
+Something like this TBA: 
 
-**Homework 8**
+First, read Daniel Jurafsky and James H. Martin, ["Neural Networks", sections 7.1-7.4](https://web.stanford.edu/~jurafsky/slp3/7.pdf)
+
+Then, to see how generic "neural networks" need to be adapted for image data, read [Matthew Stewart, "A Simple Introduction to Convolutional Neural Networks"](https://towardsdatascience.com/simple-introduction-to-convolutional-neural-networks-cdf8d3077bac) — if that blog post isn't freely open for you on the web, see the saved version I've provided on the Moodle.
+
+If that's not clear, watch 5 minutes of this excellent animated talk by [Otavio Good, from 4:25, where the link will start, to about 9:27.](https://www.youtube.com/watch?v=Oqm9vsf_hvU&t=265s)
+
+For an application of that method, see Laure Thompson and David Mimno, ["Computational Cut-Ups: The Influence of Dada."](https://mimno.infosci.cornell.edu/papers/JMPS_final.pdf)
+
+Finally, to get a preview of some wild recent developments we'll explore in class, glance at this blog post describing a new model that generates images, [called DALL-E.](https://openai.com/blog/dall-e/) (Click on some of the examples and play around with them.)
+
+---- in class ----
+
+On Monday, we will work through this notebook: [Training a CNN classifier using PyTorch.](https://pytorch.org/tutorials/beginner/blitz/cifar10_tutorial.html)
+
+I've put this notebook in our GitHub—and you can download and run it that way (although you'll have to install torch and torchvision.) But an even easier solution is just to click the button "Run in Google Colab," at the top of the page. That way, you can run the notebook in the web without installing anything. I think this will be so easy that there's little need to prepare in advance.
+
+In addition to classifying images "the old-fashioned (i.e. 2019) way," we'll talk about "zero-shot image classification" and play with new forms of image generation. One goal is to understand how we've gotten to the point where you can ask a model for "an Art Nouveau computer" and get a bizarre thing like this:
+
+![An Art Nouveau computer](artnouveau.png)
+
+**Homework 7**
 
 ### March 29: Transfer Learning and Contextual Embeddings
 
