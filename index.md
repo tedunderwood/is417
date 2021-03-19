@@ -233,12 +233,6 @@ Ben Schmidt, ["Vector Space Models for Digital Humanities"](http://bookworm.bens
 
 ### March 22: Image Classification
 
-Daniel Jurafsky and James H. Martin,
-
-Laure Thompson and David Mimno, 
-
-Something like this TBA: 
-
 First, read Daniel Jurafsky and James H. Martin, ["Neural Networks", sections 7.1-7.4](https://web.stanford.edu/~jurafsky/slp3/7.pdf)
 
 Then, to see how generic "neural networks" need to be adapted for image data, read [Matthew Stewart, "A Simple Introduction to Convolutional Neural Networks"](https://towardsdatascience.com/simple-introduction-to-convolutional-neural-networks-cdf8d3077bac) — if that blog post isn't freely open for you on the web, see the saved version I've provided on the Moodle.
