@@ -257,7 +257,7 @@ I've put this notebook in our GitHub—and you can download and run it that way 
 
 In addition to classifying images "the old-fashioned (i.e. 2019) way," we'll talk about "zero-shot image classification" and play with new forms of image generation. One goal is to understand how we've gotten to the point where you can ask a model for "an Art Nouveau computer" and get a bizarre thing like this:
 
-![An Art Nouveau computer](artnouveau.png)
+![An Art Nouveau computer](ArtNouveauComputer.png)
 
 **Homework 7**
 
