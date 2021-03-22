@@ -245,9 +245,9 @@ Finally, to get a preview of some wild recent developments we'll explore in clas
 
 ---- in class ----
 
-On Monday, we will work through this notebook: [Training a CNN classifier using PyTorch.](https://pytorch.org/tutorials/beginner/blitz/cifar10_tutorial.html)
+On Monday, we'll start by discussing the Thompson/Mimno articl. Then we'll work through this notebook: [Training a CNN classifier using PyTorch.](https://pytorch.org/tutorials/beginner/blitz/cifar10_tutorial.html)
 
-I've put this notebook in our GitHub—and you can download and run it that way (although you'll have to install torch and torchvision.) But an even easier solution is just to click the button "Run in Google Colab," at the top of the page. That way, you can run the notebook in the web without installing anything. I think this will be so easy that there's little need to prepare in advance.
+I've put this notebook in our GitHub—and you can download and run it that way (although you'll have to install torch and torchvision.) But an even easier solution is just to click the button "Run in Google Colab," at the top of the page. That way, you can run the notebook in the web without installing anything. I think this will be so easy that there's little need to prepare in advance. We'll do one bit of in-class coding, editing the notebook to produce a "confusion matrix."
 
 In addition to classifying images "the old-fashioned (i.e. 2019) way," we'll talk about "zero-shot image classification" and play with new forms of image generation. One goal is to understand how we've gotten to the point where you can ask a model for "an Art Nouveau computer" and get a bizarre thing like this:
 
