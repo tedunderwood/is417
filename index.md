@@ -286,11 +286,15 @@ Ted Underwood, ["How Not to Do Things with Words."](https://tedunderwood.com/201
 **No homework beyond this point:** you're starting to work on your project.
 
 
-### April 12: Data "Munging"
+### April 12: Project proposals
 
-Due: Project proposals. You can the forum to describe a specific problem you're facing in your project; we'll use the main course meeting to discuss these.
+By 5pm Sunday, April 11th, put a 300 to 400 word proposal for your project on the Moodle discussion forum (it’s at the top of our Moodle page). If you’re working in a group, a single person can post the proposal and everyone can sign it; you don’t need to post multiple copies.
 
-*Lab session*: Use fuzzy matching to join two datasets.
+The proposal should: a) define a question that you’d like to answer b) suggest potential source(s) of data to address the question, and c) explain how you might use the data to address the question—or, to put it another way, what model you’re envisioning.
+
+All of this can be tentative; you’re not wedded to it forever. But we’ll spend most of Monday, April 12th discussing the proposals. Please read other students’ proposals before coming to class. Our goal is to help the authors anticipate possible challenges and start thinking about ways to overcome them.
+
+We may also practice fuzzy matching, since that's a practical problem you will often encounter at this stage of data gathering.
 
 
 ### April 19: Challenges you're facing; data visualization; representing uncertainty
