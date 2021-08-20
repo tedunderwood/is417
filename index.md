@@ -1,42 +1,42 @@
 ## Objectives
 
-Human culture provides an ideal testbed for students exploring data science. It's a challenging space to work in, because most cultural materials start out as unstructured texts, sound files, or images--not neat spreadsheets. Humanistic questions also highlight the importance of interpreting statistical models in relation to a social context. Last but not least: songs, poems, and stories confront us with vivid problems that are inherently fun to explore.
+While data science can be used to explore many domains, human culture is one of the most rewarding and challenging. Most cultural materials start out as unstructured texts, sound files, or images—not neat spreadsheets. Cultural questions also highlight the importance of interpreting statistical models in relation to a social context. Last but not least: stories, poems, and images confront us with vivid problems that are inherently fun to explore.
 
 Our main goals in the course are to
 
 - understand what kinds of insights data science can (and can't) provide about human culture
-- get hands-on experience using Python to model texts and images
-- understand the mathematical principles underlying statistical machine learning, including a glimpse of deep learning
+- understand the mathematical principles and strategies appropriate for unstructured, high-dimensional data
+- get hands-on experience using Pandas to manipulate data, and using Python to model texts and images
 
-A semester of previous exposure to some programming language is a prerequisite for this course; the programming language you've used doesn't need to be Python, but you should be fairly comfortable with concepts like "variable assignment" and "for loops."
-
-## Lab sessions
-
-We're officially scheduled to have a single two-hour meeting on Mondays, from 1 to 2:50. But there are a lot of us, and it can be hard to work interactively on programming in a group of 24 people. (Students might wait a long time for their questions to get answered.)
-
-So I suspect we will find it works better to abbreviate the main synchronous meeting (so that all 24 of us just meet together from 1 to roughly 1:50 pm), and then divide the rest of our time across several 50-minute "lab sections" where you can work on code in a smaller group of 6 - 14 people. One of those lab sections might be Monday from 2:00 to 2:50--so if that time works best for your schedule, you can still do everything on Monday afternoons. But I've created a couple of other options, to give you a choice. [Here's a sign-up sheet.](https://docs.google.com/document/d/1BJLawQMffDqmvQ04j_xALLZahHDrW2mmTpi6_dlG8N4/edit?usp=sharing)
+A semester of previous exposure to some programming language is a prerequisite for this course; the programming language you've used doesn't need to be Python, but you should be quite comfortable with concepts like "variable assignment" and "for loops."
 
 ## Assignments 
 
-There are three kinds of assignments in this class: homework (in Python), informal posts in the discussion forum, and a final project (individual or group) that uses data science to investigate a question about history or human culture.
+There are four kinds of assignments in this class: homework (in Python), informal posts in the discussion forum, four low-stakes quizzes and a final project (individual or group) that uses data science to investigate a question about history or human culture.
 
-**Homework.** There will be ten homework assignments. Each one takes the form of a Jupyter notebook. In the early weeks of the class I will usually start the notebook and then ask you to finish it in a way that addresses a short list of questions.
+**Homework.** There will be nine homework assignments. Each one takes the form of a Jupyter notebook. In the early weeks of the class I will usually start the notebook and then ask you to finish it in a way that addresses a short list of questions.
 
-You might consider creating a subfolder within is417 named with your netID (e.g. for me it would be ```tunder/```), and keeping your homework assignments (just the ```.ipynb``` files) in that folder. At a later stage of the semester, this might make it easier to share your homework with me using git so I can help you debug it. However, for now I don't recommend using git to submit homework. Instead, print your notebook as a .pdf file (you can do this under "File" in JupyterLab) and submit the .pdf on the Moodle, with the .ipynb file as an attachment.
+To hand in your homework, print your notebook as a .pdf file (you can do this under "File" in JupyterLab or Colaboratory) and submit the .pdf on Canvas, with the .ipynb file as a supporting attachment. 
+
+We will often be able to grade the notebook by examining your code and results in the .pdf. But sometimes we have to re-run your code to understand what happened. To make this easier, please make sure that the notebook you hand in *reflects the results produced when all the cells are run in order.* Usually, to be sure this is the case, you need to re-run everything from the top before handing in the assignment.
+
+It may also be easier for us to reproduce your results if you keep your homework in a subdirectory within the /is417 folder, and refer to data files with relative paths that point to their location in /is417, like '../data/first_dataframe.tsv'.
 
 I will drop the lowest homework grade, so if you miss one, that's not a disaster.
 
-**Forum posts.** Five times during the semester, write a brief paragraph-length comment in the discussion forum. Usually these will be comments on the reading for a particular day; I'll use them to organize discussion. Toward the end of the class we'll be using the forum to discuss challenges you've encountered in your projects. Those posts also count toward your five.
+**Forum posts.** Four times during the semester, write a brief paragraph-length comment in the discussion forum. Usually these will be comments on the reading for a particular day; I'll use them to organize discussion. Toward the end of the class we'll also use the forum to discuss challenges you've encountered in your projects. Those posts also count toward your four.
+
+**Quizzes.** Four times during the semester I'll assign a very short (three to five question) quiz on the reading. These quizzes should be completed before the class where the reading is due. The questions will be pretty easy; this is mainly an opportunity to review the reading.
 
 **Final project.** Write an 8-12 page paper that uses some form of quantitative analysis to illuminate a question about human history or contemporary culture. Your results don't necessarily have to take the form of an experimental report (data-methods-results-conclusions). Some projects might more appropriately produce an annotated map, for instance, accompanied by a narrative. We're in a space between disciplines, so form is a place where you can be creative. 
 
-Please don't feel that your project has to demonstrate advanced methods. We're going to explore recent advanced topics here, but complex methods are not useful for all problems. Sometimes all you need is manual counting ("How many people does John Wick shoot?") plus a simple calculation ("compare to the median body count in other films").
+Ideally, your project should be one that makes use of *unstructured, high-dimensional* data. So, for instance, a spreadsheet listing movie titles, expenses, and profits would be "in the humanities" in the sense that movies are a form of art. But two or three columns of numbers won't provide the kind of humanistic data that can stretch the skills you acquire in this class. Movie posters, or movie scripts, are more likely to do that.
 
-These can be individual projects or group work. If you decide to organize in a group, you can be a more ambitious in your data gathering and analysis, and perhaps produce a slightly longer (10-16 page) paper.
+Final projects can be written by individuals or groups. If you decide to organize in a group, you can be a more ambitious in your data gathering and analysis, and perhaps produce a slightly longer (10-16 page) paper.
 
-Papers should be supported by code and data showing how you reached your conclusion. If you would like to make your project visible to an audience beyond the class, one way to organize your expository report, code, and data is to create a GitHub repository, like the one you're reading now.
+Papers should be supported by code and data showing how you reached your conclusion. If you would like to make your project visible to an audience beyond the class, you're welcome (but not required) to do that, for instance, with a GitHub repository.
 
-Homework assignments are worth 60% of the grade, forum posts and synchronous participation are worth 10%, and your final project is worth 30%.
+Homework assignments are worth 50% of the grade, forum posts and class participation are worth 10%, quizzes are worth 8%, and your final project is worth 32%.
 
 ![The Wisdom of the Ancients](https://imgs.xkcd.com/comics/wisdom_of_the_ancients.png)
 
@@ -44,13 +44,15 @@ Homework assignments are worth 60% of the grade, forum posts and synchronous par
 
 I like Miriam Posner's ["ground rules for learning tech,"](https://twitter.com/miriamkp/status/1349095892700205057) and aspire to imitate them here.
 
-In particular, I want to stress that I don't see the homework assignments as "tests." My goal is for everyone to succeed on all the assignments. 
+In particular, I want to stress that I don't see the homework assignments as "tests," but as opportunities to learn. My goal is for everyone to succeed on all the assignments. 
 
-Always start by trying to solve the problem yourself. A big part of learning to code is learning to make (and catch) mistakes, and that involves a certain amount of staring at the screen, googling whatever error message you're getting, [cursing DenverCoder9](https://xkcd.com/979/), groaning, etc. But if you've done that for an hour straight and seem to be hitting the same wall over and over, it's time to get help. Often it's something very simple! You can email me, or another student in class, and ask for a tip. Let me underline that again, because these ground rules are different from some classes: *I'm saying it's fine to email another student and ask for a clue*. The final notebook should be your own work, but it's okay to ask for help. (Don't post solutions openly on the class forum, though, because it's really important for people to google the error message and curse DenverCoder9 first. Someday you'll hit a problem where no one knows the answer yet, and then it's going to matter that you've had a lot of practice groaning, enduring, trying different debugging strategies, etc.) 
+Always start by trying to solve the problem yourself. A big part of learning to code is learning to make (and catch) mistakes, and that involves a certain amount of staring at the screen, googling whatever error message you're getting, [cursing DenverCoder9](https://xkcd.com/979/), groaning, etc. But if you've done that for an hour straight and seem to be hitting the same wall over and over, it's time to get help. Often it's something very simple! You can email me, or another student in class, and ask for a tip. Let me underline that again, because these ground rules are different from some classes: *I'm saying it's fine to email another student and ask for a clue*. The final notebook should be your own work, but it's okay to ask for help. (Don't post solutions openly on the class forum, though, because it's important for people to google the error message and curse DenverCoder9 first. Someday you'll hit a problem where no one knows the answer yet, and then it's going to matter that you've had a lot of practice groaning, enduring, trying different debugging strategies, etc.) 
 
-Do acknowledge help in the notebook. "I copied parts of the sort_lyrics() function from DenverCoder9 at Stack Overflow, and also got advice from my roommate Carol." This will not detract from your grade; it's normal to borrow bits of code.
+Do *acknowledge* help in the notebook. "I copied parts of the sort_lyrics() function from DenverCoder9 at Stack Overflow, and also got advice from my roommate Carol." This will not detract from your grade; it's normal to borrow bits of code.
 
 If you email me for help, I will try to respond within 48 hours, but I need to warn you in advance that a 48- to 72-hour delay is typical.
+
+On the quizzes, I don't encourage asking for help. The questions will be straightforward multiple-choice questions that the reading can answer.
 
 ### Where I got help
 
@@ -60,29 +62,21 @@ This syllabus is strongly influenced by (and sometimes borrows directly from) tw
 
 Note that homework stops after March, and reading really slows down too, so you can focus on your projects.
 
-### January 25: Introduction to Jupyter and Python
+### August 23: Introduction to Python and Jupyter Notebooks
 
-**What are the humanities?**
+Before coming to class, I recommend reviewing several sections of [Melanie Walsh's "Programming in Python,"](https://melaniewalsh.github.io/Intro-Cultural-Analytics/Python/Python.html#) especially if you're unfamiliar with Python.
 
-[Familiar answers, from 4Humanities.](https://4humanities.org/2014/12/what-are-the-humanities/)
+Everyone will find [“The Command Line”](https://melaniewalsh.github.io/Intro-Cultural-Analytics/features/Command-Line/The-Command-Line.html) and [“How To Use Jupyter Notebooks”](https://melaniewalsh.github.io/Intro-Cultural-Analytics/features/Python/How-to-Use-Jupyter-Notebooks.html) useful preparation.
 
-[Puzzling evidence from the Google ngram viewer.](https://rb.gy/1rbtj2)
+If you haven't worked in Python before, you may also find the other sections of Walsh's "Python Basics" useful, from "Anatomy of a Python Script" to "Common Python Errors." I'll cover this material in class, but I'll be going pretty quickly, so previous exposure will definitely help.
 
-**What happens when the humanities meet data science?**
+Once you're comfortable with the command line, I recommend [downloading git.](https://git-scm.com/downloads) We'll use this tool to distribute notebooks and data files.
 
-Mohr, Wagner-Pacifici, and Breiger, ["Toward a Computational Hermeneutics."](https://journals.sagepub.com/doi/full/10.1177/2053951715613809)
+If you don't already have a recent Anaconda installation of Python (version 3.7 or later), I recommend [downloading the Anaconda distribution of Python,](https://www.anaconda.com/products/individual) which comes with several utilities we'll use, especially Jupyter Lab.
 
-We'll discuss this article in some depth.
+**Lab session:** (you don't need to do any of this before arriving in class)
 
-Campo-Rembado and Oakley, ["How 20th Century Fox Uses ML to Predict a Movie Audience."](https://cloud.google.com/blog/products/ai-machine-learning/how-20th-century-fox-uses-ml-to-predict-a-movie-audience)
-
-Don't worry deeply about the technical details here; I'm not planning to discuss this piece in depth--just giving you a glimpse of what's possible.
-
-**Lab session:**
-
-Walsh, ["The Command Line"](https://melaniewalsh.github.io/Intro-Cultural-Analytics/features/Command-Line/The-Command-Line.html) and ["How To Use Jupyter Notebooks"](https://melaniewalsh.github.io/Intro-Cultural-Analytics/features/Python/How-to-Use-Jupyter-Notebooks.html) are useful preparation.
-
-Install git and clone the IS417 repository. This will give you
+Use git to clone the IS417 repository. This will give you
 [```Milne_ALostMasterpiece.txt```](https://americanliterature.com/author/aa-milne/essay/a-lost-masterpiece) in the ```texts/``` directory, and
 ```simple_word_counting.ipynb``` in the ```labs/``` subdirectory.
 
@@ -93,20 +87,13 @@ a) check whether a word contains any repeated letters,
 b) test whether two words are anagrams,
 c) (optional, not required, just for fun) find all common English words that are anagrams for a given string.
 
-If you don't have previous experience with Python, you may want to work through [sections 2-7 of "The Python Tutorial"](https://docs.python.org/3/tutorial/) before attempting the homework. Other introductory books and online tutorials could work equally well; Melanie Walsh has good chapters on Lists, Loops, String Methods, and Dictionaries that can be downloaded as notebooks.
+### August 31: Descriptive and Inferential Statistics with Pandas
 
-### February 1: Descriptive and Inferential Statistics with Pandas
+**Reading**:
 
 Anelise Hanson Shrout, ["(Re)Humanizing Data: Digitally Navigating the Bellevue Almshouse."](https://crdh.rrchnm.org/essays/v01-10-(re)-humanizing-data/)
-Melanie Walsh, ["Pandas Basics."](https://melaniewalsh.github.io/Intro-Cultural-Analytics/features/Data-Analysis/Pandas-Basics-Part1.html)
 
-Before class, work through the notebook [```MoviesAndStatistics.ipynb.```](https://github.com/tedunderwood/is417/tree/main/labs/Feb1Pandas)
-
-David Robinson, ["Text Analysis of Trump's Tweets Confirms He Writes Only the (Angrier) Android Half."](http://varianceexplained.org/r/trump-tweets/)
-
-Benjamin Schmidt, ["Comparing Corpuses by Word Use."](http://sappingattention.blogspot.com/2011/10/comparing-corpuses-by-word-use.html)
-
-very optional background: Ted Dunning, ["Accurate Methods for the Statistics of Surprise and Coincidence."](https://www.aclweb.org/anthology/J93-1003.pdf)
+Review *all four parts of* Melanie Walsh, ["Pandas Basics."](https://melaniewalsh.github.io/Intro-Cultural-Analytics/Data-Analysis/Data-Analysis.html)
 
 **Lab session:**
 
@@ -118,6 +105,7 @@ Using Pandas to join dataframes, in order to pose questions about dialogue and c
 
 If you need more background on descriptive and inferential statistics, I recommend the free [*OpenIntro Statistics.*](https://leanpub.com/openintro-statistics)
 
+# Stop reading here; after this point the dates and specific readings have not been adjusted yet for the fall
 
 ### February 8: Probability and statistical learning
 Daniel Jurafsky and James H. Martin, [Section 3.1, "Ngrams"](https://web.stanford.edu/~jurafsky/slp3/3.pdf)
