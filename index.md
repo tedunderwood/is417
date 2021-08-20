@@ -12,21 +12,21 @@ A semester of previous exposure to some programming language is a prerequisite f
 
 ## Assignments 
 
-There are four kinds of assignments in this class: homework (in Python), informal posts in the discussion forum, four low-stakes quizzes and a final project (individual or group) that uses data science to investigate a question about history or human culture.
+There are four kinds of assignments in this class: homework (in Python), informal posts in the discussion forum, four low-stakes quizzes, and a final project (individual or group) that uses data science to investigate a question about history or human culture.
 
 **Homework.** There will be nine homework assignments. Each one takes the form of a Jupyter notebook. In the early weeks of the class I will usually start the notebook and then ask you to finish it in a way that addresses a short list of questions.
 
-To hand in your homework, print your notebook as a .pdf file (you can do this under "File" in JupyterLab or Colaboratory) and submit the .pdf on Canvas, with the .ipynb file as a supporting attachment. 
+To hand in your homework, print your notebook as a .pdf file (you can do this under "File" in JupyterLab or Colaboratory) and submit the .pdf on Canvas—-with either the .ipynb file or a link to a Google Colab as a supporting attachment. 
 
-We will often be able to grade the notebook by examining your code and results in the .pdf. But sometimes we have to re-run your code to understand what happened. To make this easier, please make sure that the notebook you hand in *reflects the results produced when all the cells are run in order.* Usually, to be sure this is the case, you need to re-run everything from the top before handing in the assignment.
+We will often be able to grade the notebook by examining your code and results in the .pdf. But sometimes we have to re-run your code to understand what happened. To make this easier, please make sure that the .pdf you hand in *reflects the results produced when all the cells are run in order, top to bottom.* Usually, to be sure this is the case, you need to re-run everything from the top before printing and handing in the pdf.
 
 It may also be easier for us to reproduce your results if you keep your homework in a subdirectory within the /is417 folder, and refer to data files with relative paths that point to their location in /is417, like '../data/first_dataframe.tsv'.
 
-I will drop the lowest homework grade, so if you miss one, that's not a disaster.
+We will drop the lowest homework grade, so if you miss one, that's not a disaster.
 
 **Forum posts.** Four times during the semester, write a brief paragraph-length comment in the discussion forum. Usually these will be comments on the reading for a particular day; I'll use them to organize discussion. Toward the end of the class we'll also use the forum to discuss challenges you've encountered in your projects. Those posts also count toward your four.
 
-**Quizzes.** Four times during the semester I'll assign a very short (three to five question) quiz on the reading. These quizzes should be completed before the class where the reading is due. The questions will be pretty easy; this is mainly an opportunity to review the reading.
+**Quizzes.** Four times during the semester I'll assign a very short (three to five question) quiz on the reading. These quizzes should be completed before the class where the reading is due. The questions will be rather easy; this is mainly an opportunity to review the reading.
 
 **Final project.** Write an 8-12 page paper that uses some form of quantitative analysis to illuminate a question about human history or contemporary culture. Your results don't necessarily have to take the form of an experimental report (data-methods-results-conclusions). Some projects might more appropriately produce an annotated map, for instance, accompanied by a narrative. We're in a space between disciplines, so form is a place where you can be creative. 
 
@@ -93,11 +93,13 @@ c) (optional, not required, just for fun) find all common English words that are
 
 Anelise Hanson Shrout, ["(Re)Humanizing Data: Digitally Navigating the Bellevue Almshouse."](https://crdh.rrchnm.org/essays/v01-10-(re)-humanizing-data/)
 
-Review *all four parts of* Melanie Walsh, ["Pandas Basics."](https://melaniewalsh.github.io/Intro-Cultural-Analytics/Data-Analysis/Data-Analysis.html)
+Review *all four parts of* Melanie Walsh, ["Pandas Basics."](https://melaniewalsh.github.io/Intro-Cultural-Analytics/Data-Analysis/Data-Analysis.html) I recommend downloading these as .ipynb files and stepping through cell by cell so you understand it thoroughly.
+
+**First quiz:** There will be a quiz, due before class, covering the Shrout reading and especially the Walsh notebooks.
 
 **Lab session:**
 
-Statistical inference on a dataset of movies and characters.
+We'll practice using Pandas, and applying it to do basic descriptive and inferential statistics on a dataset of movies and characters.
 
 **Homework 2:**
 
