@@ -1,3 +1,17 @@
+# Data Science in the Humanities: syllabus
+
+#### Ted Underwood
+
+![instructor_headshot](SkepticalGothicTiny.png)
+
+tunder@illinois.edu
+
+Office: English Building 339 until 6th and Daniel opens
+
+Office Hours: Thursday, 2-3, either in person or on zoom 
+
+TA: Yuerong Hu
+
 ## Objectives
 
 While data science can be used to explore many domains, human culture is one of the most rewarding and challenging. Most cultural materials start out as unstructured texts, sound files, or images—not neat spreadsheets. Cultural questions also highlight the importance of interpreting statistical models in relation to a social context. Last but not least: stories, poems, and images confront us with vivid problems that are inherently fun to explore.
@@ -12,7 +26,7 @@ A semester of previous exposure to some programming language is a prerequisite f
 
 ## Assignments 
 
-There are four kinds of assignments in this class: homework (in Python), informal posts in the discussion forum, four low-stakes quizzes, and a final project (individual or group) that uses data science to investigate a question about history or human culture.
+There are four kinds of assignments in this class: homework (in Python), informal posts in the discussion forum, five low-stakes quizzes, and a final project (individual or group) that uses data science to investigate a question about history or human culture.
 
 **Homework.** There will be nine homework assignments. Each one takes the form of a Jupyter notebook. In the early weeks of the class I will usually start the notebook and then ask you to finish it in a way that addresses a short list of questions.
 
@@ -26,7 +40,7 @@ We will drop the lowest homework grade, so if you miss one, that's not a disaste
 
 **Forum posts.** Four times during the semester, write a brief paragraph-length comment in the discussion forum. Usually these will be comments on the reading for a particular day; I'll use them to organize discussion. Toward the end of the class we'll also use the forum to discuss challenges you've encountered in your projects. Those posts also count toward your four.
 
-**Quizzes.** Four times during the semester I'll assign a short (three to six question) quiz on the reading. These quizzes should be completed before the class when the reading is due. The questions will be rather easy; this is mainly an opportunity to review the reading.
+**Quizzes.** Five times during the semester I'll assign a short (three to six question) quiz on the reading. These quizzes should be completed before the class when the reading is due. The questions will be rather easy; this is mainly an opportunity to review the reading.
 
 **Final project.** Write an 8-12 page paper that uses some form of quantitative analysis to illuminate a question about human history or contemporary culture. Your results don't necessarily have to take the form of an experimental report (data-methods-results-conclusions). Some projects might more appropriately produce an annotated map, for instance, accompanied by a narrative. We're in a space between disciplines, so form is a place where you can be creative. 
 
