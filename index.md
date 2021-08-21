@@ -50,7 +50,7 @@ Final projects can be written by individuals or groups. If you decide to organiz
 
 Papers should be supported by code and data showing how you reached your conclusion. If you would like to make your project visible to an audience beyond the class, you're welcome (but not required) to do that, for instance, with a GitHub repository.
 
-Homework assignments are worth 50% of the grade, forum posts and class participation are worth 10%, quizzes are worth 8%, and your final project is worth 32%.
+Homework assignments are worth 50% of the grade, forum posts and class participation are worth 10%, quizzes are worth 10%, and your final project is worth 30%.
 
 ![The Wisdom of the Ancients](https://imgs.xkcd.com/comics/wisdom_of_the_ancients.png)
 
