@@ -4,7 +4,7 @@
 
 ![instructor_headshot](SkepticalGothicTiny.png)
 
-tunder@illinois.edu
+tunder (at) illinois.edu
 
 Office: English Building 339 until 6th and Daniel opens
 
