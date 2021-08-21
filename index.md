@@ -1,4 +1,4 @@
-# Data Science in the Humanities: syllabus
+## Instructor
 
 #### Ted Underwood
 
