@@ -1,6 +1,6 @@
-## Instructor
+# Syllabus
 
-#### Ted Underwood
+#### Instructor: Ted Underwood
 
 ![instructor_headshot](SkepticalGothicTiny.png)
 
@@ -10,7 +10,7 @@ Office: English Building 339 until 6th and Daniel opens
 
 Office Hours: Thursday, 2-3, either in person or on zoom 
 
-TA: Yuerong Hu
+#### TA: Yuerong Hu
 
 ## Objectives
 
