@@ -52,7 +52,7 @@ Do *acknowledge* help in the notebook. "I copied parts of the sort_lyrics() func
 
 If you email me for help, I will try to respond within 48 hours, but I need to warn you in advance that a 48- to 72-hour delay is typical.
 
-On the quizzes, I don't encourage asking for help. The questions will be straightforward multiple-choice questions that the reading can answer.
+The quizzes should be done on your own. The questions will be straightforward multiple-choice questions that the reading can answer.
 
 ### Where I got help
 
