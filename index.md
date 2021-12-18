@@ -121,14 +121,16 @@ Using Pandas to join dataframes, in order to pose questions about dialogue and c
 
 If you need more background on descriptive and inferential statistics, I recommend the free [*OpenIntro Statistics.*](https://leanpub.com/openintro-statistics)
 
-# Stop reading here; after this point the dates and specific readings have not been adjusted yet for the fall
+### February 8: Probability and distinctive words
+Benjamin Schmidt, [“Comparing Corpuses by Word Use”](http://sappingattention.blogspot.com/2011/10/comparing-corpuses-by-word-use.html)
 
-### February 8: Probability and statistical learning
-Daniel Jurafsky and James H. Martin, [Section 3.1, "Ngrams"](https://web.stanford.edu/~jurafsky/slp3/3.pdf)
+David Robinson, [“Text Analysis of Trump’s Tweets Confirms He Writes Only the (Angrier) Android Half.”](http://varianceexplained.org/r/trump-tweets/)
 
-For intuition, Stephanie Yee and Tony Chu, [“A Visual Introduction to Machine Learning.”](http://www.r2d3.us/visual-intro-to-machine-learning-part-1/) You may also enjoy ["Part 2: Model Tuning and the Bias-Variance Tradeoff."](http://www.r2d3.us/visual-intro-to-machine-learning-part-2/)
+Daniel Jurafsky and James H. Martin, [Section 3.1, “Ngrams”](https://web.stanford.edu/~jurafsky/slp3/3.pdf)
 
-Daniel Jurafsky and James H. Martin, [all of Chapter 4, "Naive Bayes and Sentiment Classification."](https://web.stanford.edu/~jurafsky/slp3/4.pdf)
+For intuition, Stephanie Yee and Tony Chu, [“A Visual Introduction to Machine Learning.”](http://www.r2d3.us/visual-intro-to-machine-learning-part-1/) You may also enjoy “Part 2: Model Tuning and the Bias-Variance Tradeoff.”
+
+Daniel Jurafsky and James H. Martin, all of Chapter 4, [“Naive Bayes and Sentiment Classification.”](https://web.stanford.edu/~jurafsky/slp3/4.pdf)
 
 **Lab session:**
 
