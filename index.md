@@ -121,7 +121,7 @@ Using Pandas to join dataframes, in order to pose questions about dialogue and c
 
 If you need more background on descriptive and inferential statistics, I recommend the free [*OpenIntro Statistics.*](https://leanpub.com/openintro-statistics)
 
-### February 8: Probability and distinctive words
+### September 7: Probability and distinctive words
 Benjamin Schmidt, [“Comparing Corpuses by Word Use”](http://sappingattention.blogspot.com/2011/10/comparing-corpuses-by-word-use.html)
 
 David Robinson, [“Text Analysis of Trump’s Tweets Confirms He Writes Only the (Angrier) Android Half.”](http://varianceexplained.org/r/trump-tweets/)
@@ -130,29 +130,27 @@ Daniel Jurafsky and James H. Martin, [Section 3.1, “Ngrams”](https://web.st
 
 For intuition, Stephanie Yee and Tony Chu, [“A Visual Introduction to Machine Learning.”](http://www.r2d3.us/visual-intro-to-machine-learning-part-1/) You may also enjoy “Part 2: Model Tuning and the Bias-Variance Tradeoff.”
 
-Daniel Jurafsky and James H. Martin, all of Chapter 4, [“Naive Bayes and Sentiment Classification.”](https://web.stanford.edu/~jurafsky/slp3/4.pdf)
-
 **Lab session:**
 
-We'll build a Naive Bayes classifier and model the sentiment of movie reviews.
+In the lab, we review probability and p-values, and different ways to find distinctive words.
 
 **No homework this week.**
 
-### February 15: How and why we build predictive models
+### September 14: How and why we build predictive models
 
-Obviously predictive models have some usefulness in daily life: they filter spam out of your inbox and help decide which movies Netflix and Amazon are going to recommend to you. (Remember the 20c Fox article we glanced at on the first day.) But why would historians and literary scholars care about making predictions? The past already happened; it's too late to predict it. Right?
+Obviously predictive models have some usefulness in daily life: they filter spam out of your inbox and help decide which movies Netflix and Amazon are going to recommend to you. But why would historians and literary scholars care about making predictions? The past already happened; it's too late to predict it. Right?
 
-**Optional:** If you still feel a bit dizzy in Pandas, try reviewing [all of Melanie Walsh's notebooks on Pandas,](: https://melaniewalsh.github.io/Intro-Cultural-Analytics/Data-Analysis/Data-Analysis.html) reproducing the gist of what she does in Jupyter notebooks on your own machine.
+Daniel Jurafsky and James H. Martin, all of Chapter 4, [“Naive Bayes and Sentiment Classification.”](https://web.stanford.edu/~jurafsky/slp3/4.pdf)
 
-Then glance at these three readings to get a sense of why humanists are starting to explore predictive models. (Files on [the Moodle page.](learn.illinois.edu))
+Daniel Jurafsky and James H. Martin, all of Chapter 5, [“Logistic Regression.”](https://web.stanford.edu/~jurafsky/slp3/5.pdf)
 
-Just the first page of Breiman, "The Two Cultures." (This will give you another way to think about the transition from traditional statistical modeling to machine learning.)
+Just the first page of Breiman, “The Two Cultures.” (This will give you another way to think about the transition from traditional statistical modeling to machine learning; file is included in module.)
 
-Peterson and Spirling, "Classification Accuracy as a Substantive Quantity of Interest." 
- 
-Underwood, Bamman, and Lee, "Transformation of Gender" (excerpts).
+Peterson and Spirling, [“Classification Accuracy as a Substantive Quantity of Interest.”](https://www.cambridge.org/core/journals/political-analysis/article/classification-accuracy-as-a-substantive-quantity-of-interest-measuring-polarization-in-westminster-systems/45746D999CFCD1CB43E362392D7B2FB4) 
 
-**Lab, which will transition into homework 3:** modeling gender stereotypes in film dialogue.
+**Lab session** 
+
+Building regression models of tweet sentiment.
 
 ### February 22: High-Dimensional Space: Where the Humanities Happen
 
