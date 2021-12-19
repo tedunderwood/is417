@@ -134,8 +134,6 @@ For intuition, Stephanie Yee and Tony Chu, [“A Visual Introduction to Machine
 
 In the lab, we review probability and p-values, and different ways to find distinctive words.
 
-**No homework this week.**
-
 ### September 14: How and why we build predictive models
 
 Obviously predictive models have some usefulness in daily life: they filter spam out of your inbox and help decide which movies Netflix and Amazon are going to recommend to you. But why would historians and literary scholars care about making predictions? The past already happened; it's too late to predict it. Right?
@@ -152,9 +150,9 @@ Peterson and Spirling, [“Classification Accuracy as a Substantive Quantity of 
 
 Building regression models of tweet sentiment.
 
-### February 22: High-Dimensional Space: Where the Humanities Happen
+### September 20: High-Dimensional Space: Where the Humanities Happen
 
-Daniel Jurafsky and James H. Martin, "Vector Semantics & Embeddings": Sections 6-6.4
+Daniel Jurafsky and James H. Martin, ["Vector Semantics & Embeddings": Sections 6-6.4](https://web.stanford.edu/~jurafsky/slp3/6.pdf)
 
 Victor Powell, [“Principal component analysis explained visually.”](https://setosa.io/ev/principal-component-analysis/)
 
@@ -169,11 +167,7 @@ Vincent Spruyt, ["The Curse of Dimensionality in Classification."](https://www.v
 
 We'll perform principal component analysis on movies, and measure the similarity of words in "movie space."
 
-**Homework 4:**
-
-Principal component analysis on movies.
-
-### March 1: Topic Modeling
+### Sept 28: Topic Modeling
 
 Ted Underwood, [“Topic Modeling Made Just Simple Enough” (2012).](https://tedunderwood.com/2012/04/07/topic-modeling-made-just-simple-enough/)
 
@@ -199,20 +193,6 @@ Excerpts from novels, 1880-1990: [fiction2.tsv](https://www.dropbox.com/s/tc6df6
 
 To use our movie database you would need to do a little data munging to get it into the right format.
 
-**Homework 5, due Sunday March 7 at noon,** is exactly the same as our lab assignment today:
-
-That is, take [the movie-dialogue dataset we've been using,](https://www.dropbox.com/s/5t8t166or1zo8fy/character_dataset_4lda.tsv?dl=0) topic model it using Mimno's jsLDA (linked above), and choose a topic you'd like to understand better. Download the keys and the doc-topics matrix from your model, and use that data to illuminate your chosen topic by sharing:
-
-a) The most prominent words in the topic, as reported by keys.csv.
-
-b) A list of ten movies whose characters (on average) have the highest proportion of words allocated to that topic. Note that you can treat each character in a movie as making an equal contribution to the mean prominence of the topic in the movie, even though we know some say more than others.
-
-c) A lineplot or scatterplot displaying the mean prominence of your chosen topic in characters from a given release-year.
-
-d) Write a short paragraph at the end describing what—if anything—you think we learn about movie dialogue from the distribution of this topic across the dataset.
-
-Alternatively, if you're already comfortable with gensim and want to do all of the above inside Python using gensim, you can do the assignment that way instead of using jsLDA.
-
 ### March 8: Beyond Bags of Words: People, Places and Times
 
 Daniel Jurafsky and James H. Martin, ["Sequence Labeling", sections 8.1-8.3](https://web.stanford.edu/~jurafsky/slp3/8.pdf) (If you're curious about how sequence labeling actually works, you can glance at section 8.4, but it's not required.)
@@ -225,9 +205,7 @@ Notebook: "PassagesOfTime.ipynb" (available Friday morning with a collection of 
 
 **Homework 6** will be an extension of our work in PassagesOfTime.
 
-### March 15: Word embeddings and Logistic Regression
-
-Daniel Jurafsky and James H. Martin, ["Logistic Regression," sections 5.1 and 5.2](https://web.stanford.edu/~jurafsky/slp3/5.pdf); you can keep reading beyond that if you want to know how LR works mathematically--but it's not required for our course.
+### Oct 5: Word Embeddings and Logistic Regression
 
 Daniel Jurafsky and James H. Martin, ["Vector Semantics & Embeddings," sections 6.8-6.12](https://web.stanford.edu/~jurafsky/slp3/6.pdf)
 
@@ -235,7 +213,17 @@ Ben Schmidt, ["Vector Space Models for Digital Humanities"](http://bookworm.bens
 
 ![Uses of word embeddings](WordEmbeddings.png)
 
-### March 22: Image Classification
+### Oct 12: What can you do with everything you've learned?
+
+Austin T. Koszlowski, Matt Taddy, James A. Evans. ["The Geometry of Culture: Analyzing the Meaning of Class through Word Embeddings."](https://journals.sagepub.com/doi/full/10.1177/0003122419877135) (2019)
+
+Matthew Wilkens, [“Literary Attention Lag.”](https://mattwilkens.com/2015/01/13/literary-attention-lag/) (2015).
+
+Ilia Blinderman, Caitlyn Ralph, and Russell Goldenberg. ["30 Years of American Anxieties."](https://pudding.cool/2018/11/dearabby/) The Pudding. (2018) Read especially the method section at the end and reflect on different ways of proceeding.
+
+Consider writing a "reading response" / discussion post on the thread under "discussions." The syllabus asks you to write four discussion posts on the reading over the course of the semester. We'll count your proposal as one of those, but that still leaves three!
+
+### Oct 18: Image Classification
 
 First, read Daniel Jurafsky and James H. Martin, ["Neural Networks", sections 7.1-7.4](https://web.stanford.edu/~jurafsky/slp3/7.pdf)
 
@@ -256,8 +244,6 @@ I've put this notebook in our GitHub—and you can download and run it that way 
 In addition to classifying images "the old-fashioned (i.e. 2019) way," we'll talk about "zero-shot image classification" and play with new forms of image generation. One goal is to understand how we've gotten to the point where you can ask a model for "an Art Nouveau computer" and get a bizarre thing like this:
 
 ![An Art Nouveau computer](ArtNouveauComputer.png)
-
-**Homework 7**
 
 ### March 29: Transfer Learning and Contextual Embeddings
 
