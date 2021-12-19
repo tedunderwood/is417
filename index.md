@@ -193,7 +193,7 @@ Excerpts from novels, 1880-1990: [fiction2.tsv](https://www.dropbox.com/s/tc6df6
 
 To use our movie database you would need to do a little data munging to get it into the right format.
 
-### March 8: Beyond Bags of Words: People, Places and Times
+### Beyond Bags of Words: People, Places and Times (left this unit out in Fall 2021, might bring back)
 
 Daniel Jurafsky and James H. Martin, ["Sequence Labeling", sections 8.1-8.3](https://web.stanford.edu/~jurafsky/slp3/8.pdf) (If you're curious about how sequence labeling actually works, you can glance at section 8.4, but it's not required.)
 
@@ -202,8 +202,6 @@ Matthew Wilkens, [“Literary Attention Lag”](https://mattwilkens.com/2015/01/
 Kim et al., ["What Time Is It? Temporal Analysis of Novels."](https://www.aclweb.org/anthology/2020.emnlp-main.730.pdf)
 
 Notebook: "PassagesOfTime.ipynb" (available Friday morning with a collection of fictional texts; try to download the data we're using and work through section 1 before next class.)
-
-**Homework 6** will be an extension of our work in PassagesOfTime.
 
 ### Oct 5: Word Embeddings and Logistic Regression
 
