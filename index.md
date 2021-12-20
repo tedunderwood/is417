@@ -221,7 +221,7 @@ Ilia Blinderman, Caitlyn Ralph, and Russell Goldenberg. ["30 Years of American A
 
 Consider writing a "reading response" / discussion post on the thread under "discussions." The syllabus asks you to write four discussion posts on the reading over the course of the semester. We'll count your proposal as one of those, but that still leaves three!
 
-### Oct 18: Image Classification
+### Oct 19: Image Classification
 
 First, read Daniel Jurafsky and James H. Martin, ["Neural Networks", sections 7.1-7.4](https://web.stanford.edu/~jurafsky/slp3/7.pdf)
 
@@ -231,19 +231,21 @@ If that's not clear, watch 5 minutes of this excellent animated talk by [Otavio 
 
 For an application of that method, see Laure Thompson and David Mimno, ["Computational Cut-Ups: The Influence of Dada."](https://mimno.infosci.cornell.edu/papers/JMPS_final.pdf)
 
-Finally, to get a preview of some wild recent developments we'll explore in class, glance at this blog post describing a new model that generates images, [called DALL-E.](https://openai.com/blog/dall-e/) (Click on some of the examples and play around with them.)
+Finally read [this blog post by Vadim Frolov,](https://habr.com/en/post/537334/) discussing a new "zero-shot" approach to image classification using a model called CLIP. You might also (optionally) want to explore this post by the creators of CLIP. (Links to an external site.) Our lab will focus on applications of CLIP for image classification.
 
----- in class ----
+***** (everything below is in class)
 
-On Monday, we'll start by discussing the Thompson/Mimno articl. Then we'll work through this notebook: [Training a CNN classifier using PyTorch.](https://pytorch.org/tutorials/beginner/blitz/cifar10_tutorial.html)
+In class, we'll work through a version of this Colab notebook demonstrating applications of CLIP to image classification. I may edit it a bit to create interesting questions / things to explore. But this will be the general framework, if you'd like an advance look at our in-class work: https://colab.research.google.com/github/openai/clip/blob/master/notebooks/Interacting_with_CLIP.ipynb  (Links to an external site.)
 
-I've put this notebook in our GitHub—and you can download and run it that way (although you'll have to install torch and torchvision.) But an even easier solution is just to click the button "Run in Google Colab," at the top of the page. That way, you can run the notebook in the web without installing anything. I think this will be so easy that there's little need to prepare in advance. We'll do one bit of in-class coding, editing the notebook to produce a "confusion matrix."
+(no need to look at that in advance unless you're curious)
 
-In addition to classifying images "the old-fashioned (i.e. 2019) way," we'll talk about "zero-shot image classification" and play with new forms of image generation. One goal is to understand how we've gotten to the point where you can ask a model for "an Art Nouveau computer" and get a bizarre thing like this:
+Here's the Colab link we will actually use (with interesting things to explore): [https://colab.research.google.com/github/tedunderwood/is417/blob/main/labs/8ImagesOct19/Exploring%20CLIP.ipynb#scrollTo=EyVo6WBHmMtO](https://colab.research.google.com/github/tedunderwood/is417/blob/main/labs/8ImagesOct19/Exploring%20CLIP.ipynb#scrollTo=EyVo6WBHmMtO)
+
+One goal is to understand how we've gotten to the point where you can ask a model for "an Art Nouveau computer" and get a bizarre thing like this:
 
 ![An Art Nouveau computer](ArtNouveauComputer.png)
 
-### March 29: Transfer Learning and Contextual Embeddings
+### (Not taught in this version of the syllabus: Transfer Learning and Contextual Embeddings.)
 
 Read Farhad Manjoo's ["How Do You Know a Human Wrote This?"](https://www.nytimes.com/2020/07/29/opinion/gpt-3-ai-automation.html) Remind me to extract this from the paywall for you.
 
@@ -257,45 +259,60 @@ Optional: Peters et al., ["Deep Contextualized Word Representations."](https://a
 
 **Lab** We'll use the HuggingFace implementation of BERT to do simple sentiment classification.
 
-**Homework 10**
 
-### April 5: Starting to Plan Your Project: Experimental Design
+### Oct 26: Getting your data and other pitfalls.
 
-When quantitative methods fail in the humanities, how and why do they typically fail?
+Nguyen et al., [“How We Do Things With Words: Analyzing Text as Social and Cultural Data."](https://www.frontiersin.org/articles/10.3389/frai.2020.00062/full
 
-Nguyen et al., ["How We Do Things With Words: Analyzing Text as Social and Cultural Data."](https://www.frontiersin.org/articles/10.3389/frai.2020.00062/full)
+Heather Krause, [“Data Biographies: Getting to Know Your Data.”](https://gijn.org/2017/03/27/data-biographies-getting-to-know-your-data/)
 
-Heather Krause, ["Data Biographies: Getting to Know Your Data."](https://gijn.org/2017/03/27/data-biographies-getting-to-know-your-data/)
+Ted Underwood, [“How Not to Do Things with Words.”](https://tedunderwood.com/2012/08/25/how-not-to-do-things-with-words/)
 
-Ted Underwood, ["How Not to Do Things with Words."](https://tedunderwood.com/2012/08/25/how-not-to-do-things-with-words/)
+I'll distribute your one-page proposals by Saturday, Oct 23, along with random assignments where each of you is assigned two other proposals to read. In class we'll "workshop" proposals, which simply means we'll get in groups to discuss each proposal and brainstorm data sources / methods.
 
-**Lab session:** Practice web scraping.
+### Nov 2: Contextual word embeddings
 
-**No homework beyond this point:** you're starting to work on your project.
+Choose at least three paragraphs from three different genres (English fiction, a news article in some other language, a journal article or poetry). Give GPT-J-6B (Links to an external site.) the first sentence of each, and see how it completes them. Consider writing a discussion post to comment on what it gets right or wrong.
 
+https://6b.eleuther.ai (Links to an external site.)
 
-### April 12: Project proposals
+Read "Ghosts," by Vauhini Vara. (Links to an external site.)
 
-By 5pm Sunday, April 11th, put a 300 to 400 word proposal for your project on the Moodle discussion forum (it’s at the top of our Moodle page). If you’re working in a group, a single person can post the proposal and everyone can sign it; you don’t need to post multiple copies.
+Noah A. Smith, “Contextual Word Representations: Putting Words into Computers." (This is a file on the course home page for module 11.)
+
+background reading: Tom B. Brown et al. "Language Models are Few-Shot Learners" (Links to an external site.) (2020). This is not easy reading, but click on the pdf and read the first few pages of the paper (to page 6). You can also explore some of the completions after page 48, and try them in GPT-J-6B.
+
+The quiz will cover the Vauhini Vara story, the Noah Smith article, and the first six pages of "Language Models are Few-Shot Learners."
+
+In class, we'll discuss "Ghosts" and explore contextual word vectors in poetry by exploring this excellent notebook: https://colab.research.google.com/drive/18SKxCwdiWqcX4wXjLMpBDSzMuoZ2Sd1I?usp=sharing
+
+### Nov 9: Conferences to discuss your projects
+
+Put a 300 to 400 word proposal for your project on the Moodle discussion forum (it’s at the top of our Moodle page). If you’re working in a group, a single person can post the proposal and everyone can sign it; you don’t need to post multiple copies.
 
 The proposal should: a) define a question that you’d like to answer b) suggest potential source(s) of data to address the question, and c) explain how you might use the data to address the question—or, to put it another way, what model you’re envisioning.
 
-All of this can be tentative; you’re not wedded to it forever. But we’ll spend most of Monday, April 12th discussing the proposals. Please read other students’ proposals before coming to class. Our goal is to help the authors anticipate possible challenges and start thinking about ways to overcome them.
 
-We may also practice fuzzy matching, since that's a practical problem you will often encounter at this stage of data gathering.
+### Nov 16: Open science and version control
+
+Our goals for today are:
+
+    discuss the principles of open science and the place of "distributed version control" in the open science ecosystem
+
+    familiarize ourselves with the logic of one particular version control system (git), and create a first hello-world repository
+    create a GitHub account, connect your repository to GitHub, and briefly explore GitHub pages
+
+We'll go through these stages.
+
+1. First, a brief slide show on open science, version control, and the structure of git.
+
+2. Then we'll start working through this tutorial, (Links to an external site.) in order to create your first git repository.
+
+3. If we have time, we may create a "project web page" for the repository.
 
 
-### April 19: Challenges you're facing; data visualization; representing uncertainty
 
-Use the forum to describe a specific problem you're facing in your project; we'll use the main course meeting to discuss these.
-
-*Lab sessions*: We'll use bootstrap methods to measure uncertainty and probably use GeoPy to create maps.
+### Nov 30: Project presentations
 
 
-### April 26: Television studies / challenges you're confronting in your projects
-First 30 minutes: Taylor Arnold, Lauren Tilton, Annie Berke, ["Visual Style in Two Network Era Sitcoms"](https://culturalanalytics.org/article/11045-visual-style-in-two-network-era-sitcoms)
-
-The rest of the day, project presentations.
-
-
-### May 3: Project presentations finish
+### Dec 7: Project presentations
