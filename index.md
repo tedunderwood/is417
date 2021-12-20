@@ -297,10 +297,11 @@ The proposal should: a) define a question that you’d like to answer b) suggest
 
 Our goals for today are:
 
-    discuss the principles of open science and the place of "distributed version control" in the open science ecosystem
++ discuss the principles of open science and the place of "distributed version control" in the open science ecosystem
 
-    familiarize ourselves with the logic of one particular version control system (git), and create a first hello-world repository
-    create a GitHub account, connect your repository to GitHub, and briefly explore GitHub pages
++ familiarize ourselves with the logic of one particular version control system (git), and create a first hello-world repository
+
++ create a GitHub account, connect your repository to GitHub, and briefly explore GitHub pages
 
 We'll go through these stages.
 
